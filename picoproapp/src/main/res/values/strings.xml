@@ -19,39 +19,39 @@
     <string name="controls">
         CONTROLS:\n
         Right Hand - alphabet binary chording\n
-        A: 00001 \t
-        B: 00010 \t
-        C: 00011 \t
+        A: 10000 \t
+        B: 01000 \t
+        C: 11000 \t
         D: 00100 \t
-        E: 00101 \t
-        F: 00110 \t
-        G: 00111 \t
-        H: 01000 \t
-        I: 01001 \n
+        E: 10100 \t
+        F: 01100 \t
+        G: 11100 \t
+        H: 00010 \t
+        I: 10010 \n
         J: 01010 \t
-        K: 01011 \t
-        L: 01100 \t
-        M: 01101 \t
+        K: 11010 \t
+        L: 00110 \t
+        M: 10110 \t
         N: 01110 \t
-        O: 01111 \t
-        P: 10000 \t
+        O: 11110 \t
+        P: 00001 \t
         Q: 10001 \t
-        R: 10010 \n
-        S: 10011 \t
-        T: 10100 \t
+        R: 01001 \n
+        S: 11001 \t
+        T: 00101 \t
         U: 10101 \t
-        V: 10110 \t
-        W: 10111 \t
-        X: 11000 \t
-        Y: 11001 \t
-        Z: 11010 \n\n
+        V: 01101 \t
+        W: 11101 \t
+        X: 00011 \t
+        Y: 10011 \t
+        Z: 01011 \n\n
         Left Hand - other functions\n
-        Autocomplete : 001\t
+        Autocomplete : 100\t
         Space        : 010\t
-        Period       : 011\t
-        Backspace    : 100\t
+        Period       : 110\t
+        Backspace    : 001\t
         Newline      : 101\t
-        Tab          : 110\t
+        Tab          : 011\t
         Clear Screen : 111\n
 
 
