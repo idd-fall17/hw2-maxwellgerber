@@ -8,8 +8,15 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="270px"
         android:ems="10"
         android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:fontFamily="serif-monospace"
+        android:text="@string/controls" />
+
 </LinearLayout>

@@ -41,7 +41,7 @@ public abstract class SimplePicoPro extends SimpleBoard {
     static int A1 = 1;
     static int A2 = 2;
     static int A3 = 3;
-    private Activity activity;
+    public Activity activity;
 
     public SimplePicoPro() {
         try {
@@ -126,6 +126,18 @@ public abstract class SimplePicoPro extends SimpleBoard {
     public void setActivity(Activity a) {
         activity = a;
     }
+
+    public EditText getEditText() {
+
+        EditText editText;
+        editText = (EditText) activity.findViewById(R.id.editText);
+
+        if(editText == null) {
+            Log.e(TAG,"getEditText: Could not find R.id.editText");
+        }
+        return  editText;
+    }
+
     void printCharacterToScreen(char c) {
         if (activity == null) {
             Log.e(TAG,"printChar: activity is null");
