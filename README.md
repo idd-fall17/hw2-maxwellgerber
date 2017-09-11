@@ -1,7 +1,7 @@
 IDD-fall17 Homework 2: Text Entry Device
 =====================================
 
-This github repo can be found at {}
+This github repo can be found at [https://github.com/idd-fall17/hw2-maxwellgerber](https://github.com/idd-fall17/hw2-maxwellgerber)
 
 ## What text entry methiod you chose and why
 
